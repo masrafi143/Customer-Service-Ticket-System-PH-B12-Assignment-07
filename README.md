@@ -1,16 +1,44 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 1. What is JSX, and why is it used?
+**Ans:** 
+JSX (JavaScript XML) lets us write HTML inside JavaScript.  
+It helps us see code like HTML, easy for us to read.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 2. What is the difference between State and Props?
+**Ans:**  
+- **State**: Data inside our component. We can change it.  
+- **Props**: Data that comes to us from parent. We cannot change it.  
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 3. What is the useState hook, and how does it work?
+**Ans:** With `useState`, we can keep and change data in our component.  
+It gives us:  
+1. A value (current data).  
+2. A function to change it.  
 
-## Expanding the ESLint configuration
+**Example:**
+```js
+const [count, setCount] = useState(0);
+````
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 4. How can we share state between components in React?
+
+**Ans:** We put the state in the parent and send it to children with props.
+This way all of us (components) can use the same state.
+
+---
+
+## 5. How is event handling done in React?
+
+**Ans:** We use camelCase like `onClick`.
+We give it a function.
+
+**Example:**
+
+```js
+<button onClick={handleClick}>Click</button>
