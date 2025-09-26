@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1001,
+    "title": "Payment Processing Error",
+    "description": "Customer's credit card was declined despite having sufficient funds. They have tried multiple times and are unable to complete their purchase. The error message is '402: Payment Failed.'",
+    "customer": "Sarah Chen",
+    "priority": "High priority",
+    "status": "Open",
+    "createdAt": "8/20/2025"
+  },
+  {
+    "id": 1002,
+    "title": "Account Verification Issues",
+    "description": "User is unable to verify their email address. They have requested the verification link multiple times but haven't received it in their inbox or spam folder.",
+    "customer": "Mark Rodriguez",
+    "priority": "Medium priority",
+    "status": "In-Progress",
+    "createdAt": "8/21/2025"
+  },
+  {
+    "id": 1003,
+    "title": "Report Bug: Shopping Cart Glitch",
+    "description": "When a customer adds an item to their cart, it shows up for a moment, then disappears. The issue seems to be inconsistent and affects different browsers.",
+    "customer": "Jessica Brown",
+    "priority": "High priority",
+    "status": "Open",
+    "createdAt": "8/22/2025"
+  },
+  {
+    "id": 1004,
+    "title": "Subscription Cancellation Problem",
+    "description": "A customer is unable to cancel their subscription from their account settings. The 'Cancel Subscription' button is greyed out and they are still being charged.",
+    "customer": "David Wilson",
+    "priority": "High priority",
+    "status": "Open",
+    "createdAt": "8/23/2025"
+  },
+  {
+    "id": 1005,
+    "title": "Incorrect Product Information",
+    "description": "The description for 'Product X' on the website lists the wrong dimensions. The customer has received the item and it does not fit their needs.",
+    "customer": "Laura Evans",
+    "priority": "Medium priority",
+    "status": "Open",
+    "createdAt": "8/24/2025"
+  },
+  {
+    "id": 1006,
+    "title": "Website Not Loading on Mobile",
+    "description": "A user reports that the website is not loading correctly on their iPhone 14. The page appears blank or is heavily distorted, making it unusable.",
+    "customer": "Alex Thompson",
+    "priority": "High priority",
+    "status": "In-Progress",
+    "createdAt": "8/25/2025"
+  },
+  {
+    "id": 1007,
+    "title": "Password Reset Link Expired",
+    "description": "A customer tried to reset their password but the link expired before they could use it. They need a new, valid link to access their account.",
+    "customer": "Ryan Carter",
+    "priority": "Low priority",
+    "status": "Open",
+    "createdAt": "8/26/2025"
+  },
+  {
+    "id": 1008,
+    "title": "General Inquiry - Product Features",
+    "description": "Customer is asking about the availability of a specific feature not listed on the product page. They want to know if it's planned for a future update.",
+    "customer": "Sophie Miller",
+    "priority": "Low priority",
+    "status": "Open",
+    "createdAt": "8/27/2025"
+  },
+  {
+    "id": 1009,
+    "title": "Data Export Failure",
+    "description": "A user tried to export their data in a CSV format but the download failed multiple times with an 'internal server error.'",
+    "customer": "Ben Taylor",
+    "priority": "Medium priority",
+    "status": "Open",
+    "createdAt": "8/28/2025"
+  },
+  {
+    "id": 1010,
+    "title": "Broken Image on Homepage",
+    "description": "An image on the main banner of the homepage is not loading and is instead showing a broken file icon. This is affecting the site's overall appearance.",
+    "customer": "Taylor Miller",
+    "priority": "Medium priority",
+    "status": "In-Progress",
+    "createdAt": "8/29/2025"
+  }
+]
