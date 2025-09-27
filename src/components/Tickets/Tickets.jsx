@@ -1,9 +1,10 @@
 import React, { use } from 'react';
 import Ticket from './Ticket';
+import { toast } from 'react-toastify';
 
 const Tickets = ({ticketPromise,ticketStatus,setTicketStatus}) => {
     const handleTicketTask = (ticket) => {
-      alert(ticket.title);
+      toast(ticket.title);
         const newTicketStatus = [...ticketStatus, ticket];
         setTicketStatus(newTicketStatus);
     }

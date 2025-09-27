@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { toast } from 'react-toastify';
 
 const TicketStatus = ({ticketStatus, setTicketStatus, resolves, setResolves}) => {
     
@@ -23,7 +24,7 @@ const TicketStatus = ({ticketStatus, setTicketStatus, resolves, setResolves}) =>
     const Status = ({ticket, ticketStatus, setTicketStatus, resolves,setResolves}) => {
         const {id, title} = ticket;
         const handleResolved = (title) => {
-            alert(`${title} resolved`);
+            toast(`Resolved ${title}`);
             const newResolve = [...resolves, title];
             setResolves(newResolve);
             const remaining = ticketStatus.filter(ticket => ticket.id !== id);
