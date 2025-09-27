@@ -38,19 +38,19 @@ const Footer = () => {
                     <h2 className='font-bold text-lg'>Social Links</h2>
                     <ul>
                         <li><a href="" className='flex items-center gap-2'>
-                            <i class="fa-brands fa-x-twitter"></i>
+                            <i className="fa-brands fa-x-twitter"></i>
                             @CS — Ticket System
                         </a></li>
                         <li><a href="" className='flex items-center gap-2'>
-                            <i class="fa-brands fa-instagram"></i>
+                            <i className="fa-brands fa-instagram"></i>
                             @CS — Ticket System
                         </a></li>
                         <li><a href="" className='flex items-center gap-2'>
-                            <i class="fa-brands fa-facebook"></i>
+                            <i className="fa-brands fa-facebook"></i>
                             @CS — Ticket System
                         </a></li>
                         <li><a href="" className='flex items-center gap-2'>
-                            <i class="fa-solid fa-envelope"></i>
+                            <i className="fa-solid fa-envelope"></i>
                             support@cst.com
                         </a></li>
                     </ul>
