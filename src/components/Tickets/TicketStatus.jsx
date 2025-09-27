@@ -5,7 +5,7 @@ const TicketStatus = ({ticketStatus, setTicketStatus, resolves, setResolves}) =>
     
     return (
             <>
-                <div className='h-full space-y-3'>
+                <div className='space-y-3'>
                     <h2 className='font-bold text-2xl md:text-3xl'>Task Status</h2>
                     {ticketStatus.length==0 && <p className='font-semibold'>Select a ticket to add to Task Status</p>} 
                     {

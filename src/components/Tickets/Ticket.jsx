@@ -8,9 +8,9 @@ const Ticket = ({ticket, handleTicketTask}) => {
     return (
         <div onClick={handleTicket} className=''>
             <div className='bg-white p-5 rounded-2xl h-full shadow-lg space-y-3'>
-                <div className='flex justify-between items-center'>
+                <div className='flex flex-col md:flex-row md:justify-between md:items-center'>
                     <h2 className='font-bold  text-lg'>{title}</h2>
-                    <div className={`rounded-lg p-1 flex items-center gap-1 h-fit ${(status==="Open")? "bg-[#B9F8CF] text-[#0B5E06]" : "bg-[#F8F3B9] text-[#9C7700]"}`}>
+                    <div className={`rounded-lg p-1 flex items-center gap-1 h-fit w-fit ${(status==="Open")? "bg-[#B9F8CF] text-[#0B5E06]" : "bg-[#F8F3B9] text-[#9C7700]"}`}>
                         <i className="fa-solid fa-circle"></i>
                         <p className='text-nowrap font-bold'>{status}</p>
                     </div>
@@ -21,9 +21,9 @@ const Ticket = ({ticket, handleTicketTask}) => {
                         <p>#{id}</p>
                         <p className={`font-bold ${(priority==="High priority")? "text-red-600" : (priority==="Medium priority")?"text-orange-600" : "text-green-600"}`}>{priority}</p>
                     </div>
-                    <div className='flex justify-between gap-2'>
+                    <div className='flex justify-between md:gap-2'>
                         <p className='font-semibold'>{customer}</p>
-                        <div className='flex items-center gap-1'>
+                        <div className='flex items-center md:gap-1'>
                             <i className="fa-solid fa-calendar-days"></i>
                             <p>{createdAt}</p>
                         </div>
