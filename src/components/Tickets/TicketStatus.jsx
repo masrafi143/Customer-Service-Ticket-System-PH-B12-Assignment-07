@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
-const TicketStatus = ({ticketStatus, setTicketStatus}) => {
-    const [resolves, setResolves] = useState([]);
+const TicketStatus = ({ticketStatus, setTicketStatus, resolves, setResolves}) => {
+    
     return (
             <>
                 <div className='h-full space-y-3'>
