@@ -5,7 +5,7 @@ const TicketStatus = ({ticketStatus, setTicketStatus, resolves, setResolves, set
     
     return (
             <>
-                <div className='space-y-3 text-black'>
+                <div className='space-y-3 text-black bg-white p-4 rounded-3xl shadow-2xl'>
                     <h2 className='font-bold text-2xl md:text-3xl'>Task Status</h2>
                     {ticketStatus.length==0 && <p className='font-semibold'>Select a ticket to add to Task Status</p>} 
                     {
@@ -33,7 +33,7 @@ const TicketStatus = ({ticketStatus, setTicketStatus, resolves, setResolves, set
         }
         return(
             <>
-                <div className='p-3 space-y-2 bg-white rounded-2xl shadow-2xl'>
+                <div className='p-3 space-y-2 bg-[#f5f5f5] border border-gray-200 rounded-2xl shadow-2xl'>
                 <h1 className='font-semibold text-lg'>{title}</h1>
                 <button onClick={handleResolved} className='btn bg-green-600 w-full text-white font-bold'>Complete</button>
                 </div>

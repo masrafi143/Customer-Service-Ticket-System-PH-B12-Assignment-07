@@ -24,7 +24,7 @@ const ticketPromise = fetch('ticketInfo.json').then(res => res.json());
             <Tickets ticketStatus={ticketStatus} setTicketStatus={setTicketStatus} ticketPromise={ticketPromise} allTickets={allTickets} setAllTickets={setAllTickets}/>
           </Suspense>
         </div>
-        <div className='col-span-full md:col-span-1 my-10 ml-5'>
+        <div className='col-span-full md:col-span-1 my-8 md:my-24  md:ml-5'>
         <TicketStatus ticketStatus={ticketStatus} resolves={resolves} setResolves={setResolves} setTicketStatus={setTicketStatus} setAllTickets={setAllTickets}/>
         </div>
       </div>
