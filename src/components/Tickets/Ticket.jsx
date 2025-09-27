@@ -7,7 +7,7 @@ const Ticket = ({ticket, handleTicketTask}) => {
     }
     return (
         <div onClick={handleTicket} className=''>
-            <div className='bg-white p-5 rounded-2xl h-full shadow-lg space-y-3'>
+            <div className='bg-white p-5 rounded-2xl h-full shadow-lg space-y-3 text-black'>
                 <div className='flex flex-col md:flex-row md:justify-between md:items-center'>
                     <h2 className='font-bold  text-lg'>{title}</h2>
                     <div className={`rounded-lg p-1 flex items-center gap-1 h-fit w-fit ${(status==="Open")? "bg-[#B9F8CF] text-[#0B5E06]" : "bg-[#F8F3B9] text-[#9C7700]"}`}>
